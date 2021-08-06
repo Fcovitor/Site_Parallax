@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: auto;
+    min-width: 320px;
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#secao1, #secao2, #secao3 h1{
+    text-align: center;
+}
+
+
+
+/*--------------Header---------------*/
+
+#cabecalho{
+    
+    width: auto;
+    /* background-image:url("./img/beautiful.jpg"); https://br.freepik.com/fotos/cidade' Cidade foto criado por wirestock - br.freepik.com*/
+     background-image: url("./img/pexels-chait-goli-1796706\ \(1\).jpg");/*Foto de Chait Goli no Pexels:https://www.pexels.com/pt-br/foto/ponte-iluminada-1796706/*/
+    background-attachment: fixed; 
+    background-repeat: no-repeat;  
+    background-position:center;
+    background-size:cover;   
+    text-align: center;
+}
+
+/* position:relative;
+    top: 30%;*/
+#sub_header1{
+    max-width: 400px;
+    min-width: 320px;
+    margin: 30% auto;   
+    background-color: slategray;   
+}
+
+@media only screen and (max-width: 600px) {
+    #sub_header1{
+        max-width: 320px;
+    }
+   
+      
+}
+
+
+#sub_header1{
+    color: slategray;
+    animation-name: header1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes header1 {
+    0%   {background-color: slategray;}
+    25%  {background-color: rgb(222, 222, 253);}
+    50%  {background-color: lightslategray;}
+    100% {background-color: white;}
+
+}
+
+#sub_header1{
+    color: slategray;
+    animation-name: header2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes header2 {
+    0%   {color: white;}
+    25%  {color: rgb(197, 216, 235);}
+    50%  {color: rgb(222, 222, 253);}
+    100% {color: rgb(182, 187, 192);}
+
+}
+
+
+/*--------------Header---------------*/
+
+
+/*---------------------Main------------------*/
+
+
+
+
+/*--------------section1---------------*/
+
+#text1_section{
+    background-color: slategray ;
+    color: aliceblue; 
+
+}
+
+#text_1, #text_2{
+    text-align:center;
+}
+#secao1, #secao2, #secao3{
+    text-align: center;
+}
+
+#secao1{
+    height: 600px;
+    width: auto;
+    /*background-image:url("./img/decorative.jpg") ;<a href='https://br.freepik.com/fotos/fundo'>Fundo foto criado por freepik - br.freepik.com</a>*/
+    /*background-image: url("./img/pexels-sid-ali-2028885.jpg"); Foto de Sid Ali no Pexels:https://www.pexels.com/pt-br/foto/reino-unido-big-ben-carros-veiculos-2028885/*/
+    background-image: url("./img/pexels-nextvoyage-1461974.jpg");/*Foto de Nextvoyage no Pexels:https://www.pexels.com/pt-br/foto/torre-eiffel-em-paris-franca-1461974/*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;  
+    
+
+}
+
+/*--------------section1---------------*/
+
+
+/*--------------section2---------------*/
+    
+#text2_section{
+    background-color: white; 
+    color: lightslategray; 
+}
+
+
+
+#secao2{
+    height: 600px;
+    width: auto;
+    /* background-image: url("./img/close.jpg");<a href='https://br.freepik.com/fotos/cidade'>Cidade foto criado por wirestock - br.freepik.com</a>*/
+
+    /*background-image: url("./img/pexels-lina-kivaka-4199213.jpg"); https://www.pexels.com/pt-br/foto/pessoas-andando-na-calcada-perto-de-arvores-4199213/*/
+
+    /*background-image: url("./img/pexels-olga-lioncat-7245363.jpg"); https://www.pexels.com/pt-br/foto/heranca-patrimonio-sucessao-ponte-da-torre-7245363/*/
+
+    background-image: url("./img/pexels-alex-zhernovyi-3822483.jpg"); /*Foto de Alex Zhernovyi no Pexels:https://www.pexels.com/pt-br/foto/arvore-verde-perto-de-edificio-de-concreto-bege-3822483/*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;  
+    
+
+}
+
+/*--------------section2---------------*/
+
+
+/*--------------section3---------------*/
+
+#secao3_section{
+    background-color:lightslategray; 
+    color: white; 
+    text-align: center;
+}
+
+/*--------------section3---------------*/
+
+
+/*--------------Main---------------*/
+
+
+#ultima{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+
+
+
+    height: 800px;
+    width: auto;
+   /* background-image:url("./img/beautiful.jpg");<a href='https://br.freepik.com/fotos/cidade'>Cidade foto criado por wirestock - br.freepik.com</a>*/
+    background-image: url("./img/pexels-chait-goli-1796706\ \(1\).jpg"); /*Foto de Chait Goli no Pexels*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+    
+}
+
+#ultimma h1,a{
+    margin-bottom: 10px;
+}
+
+
+
+#ultima a{
+    text-decoration: none;
+    color: white;
+}
+
+#ultima a:hover{
+    color: rgb(222, 222, 253);
+
+}
+
+
+#ultima > #fim{
+    color: slategray;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes example {
+    0%   {color: rgb(204, 208, 211);}
+    25%  {color: rgb(210, 210, 221);}
+    50%  {color: rgb(213, 215, 218);}
+    100% {color: rgb(253, 253, 253);}
+
+}
+
+p{
+    padding: 25px 100px  100px 100px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(222, 222, 253);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+
+    
+}
